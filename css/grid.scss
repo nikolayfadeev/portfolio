@@ -1,0 +1,22 @@
+.container {
+  $max-width: 1140px;
+  $gutter: 15px;
+
+  width: 100%;
+  max-width: $max-width - ($gutter * 2);
+  height: 100%;
+
+
+  margin: 0 auto;
+  padding: 0 $gutter;
+
+}
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    //height: 100%;
+  }
