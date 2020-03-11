@@ -168,8 +168,11 @@
   height: 100vh;
 
   .container {
+    height: 93%;
+
     border-left: 1px solid #c9524d;
-    border-right: 1px solid #c9524d;;
+    border-right: 1px solid #c9524d;
+
 
       .row {
         border-left: 1px solid #c9524d;
@@ -181,6 +184,7 @@
 
   h3 {
     width: 100%;
+    height: 7%;
     text-align: center;
     color: #fff;
     font-family: 'Russo One', sans-serif;;
@@ -194,7 +198,6 @@
 
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 32vh 32vh;
-    width: 100%;
   }
 
 
@@ -231,6 +234,11 @@
         background-color: $color-ligth-bg;
         color: $color-beige;
       }
+
+
+    .item:hover {
+
+    }
 
 
 }

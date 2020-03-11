@@ -320,6 +320,7 @@ li {
   background-color: #212221;
   height: 100vh; }
   .portfolio .container {
+    height: 93%;
     border-left: 1px solid #c9524d;
     border-right: 1px solid #c9524d; }
     .portfolio .container .row {
@@ -328,6 +329,7 @@ li {
       height: 100%; }
   .portfolio h3 {
     width: 100%;
+    height: 7%;
     text-align: center;
     color: #fff;
     font-family: 'Russo One', sans-serif;
@@ -336,8 +338,7 @@ li {
   .portfolio .grid-portfolio {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 32vh 32vh;
-    width: 100%; }
+    grid-template-rows: 32vh 32vh; }
   .portfolio .item {
     display: flex;
     justify-content: center;
